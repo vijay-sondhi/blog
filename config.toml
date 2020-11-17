@@ -1,0 +1,55 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Paytm Blog"
+  subtitle    = "Blog for Paytm for Business"
+
+  cover       = "cover1.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "sahilvjs"
+  fbName = "sahilvjs"
+  githubName = "vijay-sondhi"
+
+  logo = "logo.gif"
+  orgName = "EM"
+  orgWebsite = "https://www.paytm.com"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "VJS"
+  authorAvatar = "profile-picture.jpeg"
+  authorLocation = "Delhi, IN"
+  authorWebsite = "paytm.com"
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Blog"
+  url = "https://blog.paytm.com"
+  weight = 100
+
+[[menu.main]]
+  name = "Business"
+  url = "/tags/business/"
+  weight = 99
