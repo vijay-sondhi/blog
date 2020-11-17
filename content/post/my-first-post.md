@@ -10,3 +10,5 @@ categories:
   - mini-apps
 ---
 Hello **Welcome to our page**
+
+Hi this paytm mini app
